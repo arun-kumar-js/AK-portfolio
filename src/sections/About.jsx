@@ -10,7 +10,7 @@ function About() {
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-5xl mx-auto">
         <div className="md:w-1/2 flex justify-center md:justify-start">
           <img
-            src="/public/coder4.avif"
+            src="/coder4.avif"
             alt="About Me"
             className="w-64 h-64 object-cover rounded-full"
           />

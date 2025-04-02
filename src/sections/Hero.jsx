@@ -24,14 +24,14 @@ function Hero() {
               href="https://github.com/arun-kumar-js"
               className="text-white hover:text-gray-300 hover:scale-110 hover:bg-gray-200 transform transition-transform duration-300 hover:rotate-3"
             >
-              <img src="/public/github-color.svg" className="w-8 h-8" alt="" />
+              <img src="/github-color.svg" className="w-8 h-8" alt="" />
             </a>
             <a
               href="https://www.linkedin.com/in/arunkumar-packiyasamy/"
               className="text-white hover:text-gray-300 hover:scale-110 hover:bg-gray-200 transform transition-transform duration-300 hover:rotate-3"
             >
               <img
-                src="/public/linkedin-svgrepo-com.svg"
+                src="/linkedin-svgrepo-com.svg"
                 alt=""
                 className="w-9 h-9"
               />
@@ -41,7 +41,7 @@ function Hero() {
               className="text-white hover:text-gray-300 hover:scale-110 hover:bg-gray-200 transform transition-transform duration-300 hover:rotate-3"
             >
               <img
-                src="/public/mail-reception-svgrepo-com.svg"
+                src="/mail-reception-svgrepo-com.svg"
                 alt=""
                 className="w-9 h-9"
               />
@@ -51,7 +51,7 @@ function Hero() {
         {/* Right Section */}
         <div className="w-full md:w-1/2 flex items-center justify-center mt-8 md:mt-0">
           <img
-            src="/public/coder2.png"
+            src="/coder2.png"
             alt="Side Illustration"
             className="w-3/4 h-auto object-cover rounded-lg shadow-lg hover:animate-pulse"
           />

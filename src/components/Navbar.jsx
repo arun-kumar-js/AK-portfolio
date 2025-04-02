@@ -7,7 +7,7 @@ function Navbar() {
       <div className="flex items-center space-x-4">
         <div className="w-10 h-10">
           <img
-            src="/public/Image 01-04-25 at 2.59 PM.jpg"
+            src="/Image 01-04-25 at 2.59 PM.jpg"
             alt="logo"
             className="rounded-full object-cover"
           />

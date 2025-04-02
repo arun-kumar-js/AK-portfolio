@@ -15,7 +15,7 @@ function Projects() {
           {/* Project 1 */}
           <div className="relative group bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
             <img
-              src="/public/landin-page.png"
+              src="/landin-page.png"
               alt="Landing Page"
               className="w-full h-48 sm:h-56 lg:h-64 object-cover rounded-lg group-hover:opacity-0 transition-opacity duration-300"
             />
@@ -41,7 +41,7 @@ function Projects() {
           {/* Project 2 - E-Commerce Website */}
           <div className="relative group bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
             <img
-              src="/public/project-2.png"
+              src="/project-2.png"
               alt="E-Commerce Website"
               className="w-full h-48 sm:h-56 lg:h-64 object-cover rounded-lg group-hover:opacity-0 transition-opacity duration-300"
             />

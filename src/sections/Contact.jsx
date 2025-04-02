@@ -12,7 +12,7 @@ function Contact() {
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
           <div className="text-center">
             <img
-              src="/public/Pocket Resume.gif"
+              src="/Pocket Resume.gif"
               alt="Resume Preview"
               className="w-40 h-40 sm:w-60 sm:h-60 mx-auto rounded-lg shadow-lg"
             />
