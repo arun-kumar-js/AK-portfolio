@@ -31,9 +31,7 @@ function Contact() {
 
         {/* Contact Section */}
         <div className="text-center mt-16">
-          <p className="text-lg sm:text-xl mb-4">
-            Feel free to reach out if you'd like to collaborate or chat!
-          </p>
+         
           <h1 className="text-2xl sm:text-3xl font-bold mb-4">Contact</h1>
           <p className="text-sm sm:text-base mb-4">📞 Get in Touch</p>
           <p className="text-sm sm:text-base mb-4">
