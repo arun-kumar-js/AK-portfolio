@@ -20,7 +20,7 @@ function Contact() {
           <div className="text-center">
             <h2 className="text-2xl sm:text-4xl font-semibold mb-4">Resume</h2>
             <a
-              href="/path-to-resume.pdf"
+              href="https://drive.google.com/file/d/1KvA1q004J7i95TmLUU30ohedp5D_f88M/view?usp=drive_link"
               download
               className="inline-block bg-blue-500 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow-md hover:bg-blue-600 transition"
             >
@@ -31,7 +31,6 @@ function Contact() {
 
         {/* Contact Section */}
         <div className="text-center mt-16">
-         
           <h1 className="text-2xl sm:text-3xl font-bold mb-4">Contact</h1>
           <p className="text-sm sm:text-base mb-4">📞 Get in Touch</p>
           <p className="text-sm sm:text-base mb-4">
