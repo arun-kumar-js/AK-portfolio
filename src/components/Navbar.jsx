@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className="flex flex-wrap items-center justify-between w-full bg-blue-600 text-white px-8 py-4 z-10 shadow-md">
-      {/* Logo and title */}
+    <nav className="flex items-center justify-between w-full bg-blue-600 text-white px-8 py-4 z-10 shadow-md">
+      {/* Logo and Title */}
       <div className="flex items-center space-x-4">
         <div className="w-10 h-10">
           <img
@@ -15,34 +17,43 @@ function Navbar() {
         <h1 className="text-xl font-semibold">P. Arunkumar</h1>
       </div>
 
-      {/* Navigation link */}
-      <ul className="flex flex-wrap space-x-4 md:space-x-8 text-sm font-medium mt-4 md:mt-0">
-        <li>
-          <a href="#hero" className="hover:text-yellow-400 transition-colors">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="hover:text-yellow-400 transition-colors">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="#projects" className="hover:text-yellow-400 transition-colors">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a href="#skills" className="hover:text-yellow-400 transition-colors">
-            Skills
-          </a>
-        </li>
-        <li>
-          <a href="#contact" className="hover:text-yellow-400 transition-colors">
-            Contact
-          </a>
-        </li>
+      {/* Desktop Navigation */}
+      <ul className="hidden md:flex space-x-6 text-sm font-medium">
+        {["Home", "About", "Projects", "Skills", "Contact"].map((item) => (
+          <li key={item}>
+            <a
+              href={`#${item.toLowerCase()}`}
+              className="hover:text-yellow-400 transition-colors"
+            >
+              {item}
+            </a>
+          </li>
+        ))}
       </ul>
+
+      {/* Mobile Menu Button */}
+      <button className="md:hidden text-2xl" onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? "✖" : "⋮"}
+      </button>
+
+      {/* Mobile Dropdown Menu */}
+      {isOpen && (
+        <div className="absolute top-16 right-4 w-40 bg-blue-700 rounded-lg shadow-lg md:hidden">
+          <ul className="flex flex-col space-y-2 p-4">
+            {["Home", "About", "Projects", "Skills", "Contact"].map((item) => (
+              <li key={item}>
+                <a
+                  href={`#${item.toLowerCase()}`}
+                  className="block py-2 px-4 text-white hover:bg-blue-500 rounded-md"
+                  onClick={() => setIsOpen(false)} // Close menu on click
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </nav>
   );
 }

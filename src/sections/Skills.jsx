@@ -47,14 +47,14 @@ const SkillItem = ({ name, level }) => {
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="p-4">
+    <section id="skills" className="p-4 pt-56 pb-60">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
         <motion.h2
-          className="text-xl font-bold text-center mb-6 pt-5 pb-5"
+          className="text-4xl font-bold text-center mb-6 pt-5 pb-10 text-amber-600"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
