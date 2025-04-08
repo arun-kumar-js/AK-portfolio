@@ -3,10 +3,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section
-      id="contact"
-      className="min-h-screen bg-gray-900 text-white pt-32"
-    >
+    <section id="contact" className="min-h-screen bg-gray-900 text-white pt-32">
       <div className="max-w-5xl mx-auto">
         {/* Resume Section */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-8">
@@ -20,7 +17,7 @@ function Contact() {
           <div className="text-center">
             <h2 className="text-2xl sm:text-4xl font-semibold mb-4">Resume</h2>
             <a
-              href="https://drive.google.com/file/d/1KvA1q004J7i95TmLUU30ohedp5D_f88M/view?usp=drive_link"
+              href="https://drive.google.com/file/d/18JXqGgJk8EdSlu2MCcaHQkPlGnuTrc1A/view?usp=drive_link"
               download
               className="inline-block bg-blue-500 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg shadow-md hover:bg-blue-600 transition"
             >
