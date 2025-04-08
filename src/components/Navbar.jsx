@@ -19,16 +19,18 @@ function Navbar() {
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex space-x-6 text-sm font-medium">
-        {["Home", "About", "Projects", "Skills", "Contact"].map((item) => (
-          <li key={item}>
-            <a
-              href={`#${item.toLowerCase()}`}
-              className="hover:text-yellow-400 transition-colors"
-            >
-              {item}
-            </a>
-          </li>
-        ))}
+        {["Home", "About", "Projects", "Skills", "certificates", "Contact"].map(
+          (item) => (
+            <li key={item}>
+              <a
+                href={`#${item.toLowerCase()}`}
+                className="hover:text-yellow-400 transition-colors"
+              >
+                {item}
+              </a>
+            </li>
+          )
+        )}
       </ul>
 
       {/* Mobile Menu Button */}
@@ -40,7 +42,14 @@ function Navbar() {
       {isOpen && (
         <div className="absolute top-16 right-4 w-40 bg-blue-700 rounded-lg shadow-lg md:hidden">
           <ul className="flex flex-col space-y-2 p-4">
-            {["Home", "About", "Projects", "Skills", "Contact"].map((item) => (
+            {[
+              "Home",
+              "About",
+              "Projects",
+              "Skills",
+              "certificates",
+              "Contact",
+            ].map((item) => (
               <li key={item}>
                 <a
                   href={`#${item.toLowerCase()}`}
