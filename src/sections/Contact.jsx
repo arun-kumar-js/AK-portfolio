@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen bg-gray-900 text-white py-16 px-4"
+      className="min-h-screen bg-gray-900 text-white pt-32"
     >
       <div className="max-w-5xl mx-auto">
         {/* Resume Section */}
@@ -64,7 +64,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="pt-5 text-center">
+      <div className="pt-64 text-center">
         <hr className="border-gray-700" />
         <h1 className="mt-4">Arunkumar@2025</h1>
       </div>

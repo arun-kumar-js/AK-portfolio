@@ -20,14 +20,14 @@ const skills = [
 const SkillItem = ({ name, level }) => {
   return (
     <motion.div
-      className="flex flex-col items-center p-4 rounded-lg shadow-lg text-center w-full sm:w-[150px] bg-gray-800"
+      className="flex flex-col items-center p-4 rounded-lg shadow-lg text-center w-full sm:w-[150px] bg-gray-700"
       initial={{ opacity: 0, x: 50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}
       whileHover={{ scale: 1.1 }}
     >
       <motion.h3
-        className="text-lg font-medium mb-2 text-gray-300"
+        className="text-lg font-medium mb-2 text-amber-400"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
@@ -35,19 +35,19 @@ const SkillItem = ({ name, level }) => {
         {name}
       </motion.h3>
       <motion.div
-        className="h-2 rounded-full w-full bg-blue-500"
+        className="h-2 rounded-full w-full bg-amber-500"
         initial={{ width: 0 }}
         animate={{ width: `${level}%` }}
         transition={{ duration: 1.5, ease: "easeInOut" }}
       />
-      <span className="text-sm block mt-2 text-gray-400">{level}%</span>
+      <span className="text-sm block mt-2 text-gray-300">{level}%</span>
     </motion.div>
   );
 };
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="p-4 pt-56 pb-60">
+    <section id="skills" className="p-4 pt-56 pb-60 bg-slate-800">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

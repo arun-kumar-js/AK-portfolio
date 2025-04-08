@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="h-screen bg-gray-100 text-gray-800 flex items-center justify-center"
+      className="h-screen bg-black text-white flex items-center justify-center"
     >
       <div className="flex flex-col md:flex-row items-center md:items-start max-w-5xl mx-auto">
         <div className="md:w-1/2 flex justify-center md:justify-start">
@@ -16,7 +16,7 @@ function About() {
           />
         </div>
         <div className="md:w-1/2 mt-8 md:mt-0 md:ml-8 text-center md:text-left">
-          <h2 className="text-4xl font-semibold">About Me</h2>
+          <h2 className="text-4xl font-semibold text-orange-300">About Me</h2>
           <p className="mt-4 text-xl">
             Hello! I’m Arunkumar, a passionate Full Stack MERN Developer with
             experience in building modern, responsive, and scalable web

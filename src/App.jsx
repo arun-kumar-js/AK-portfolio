@@ -7,6 +7,8 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Contact from "./sections/Contact";
 
+import Certification from "./sections/certification";
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <About />
       <Projects />
       <Skills />
+      <Certification />
       <Contact />
       
     </div>
