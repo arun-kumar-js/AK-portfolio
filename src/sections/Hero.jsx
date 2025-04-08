@@ -1,4 +1,5 @@
 import React from "react";
+import "./Hero.css"
 
 function Hero() {
   return (
@@ -10,8 +11,12 @@ function Hero() {
         {/* Left Section */}
         <div className="w-full md:w-1/2 flex flex-col items-center justify-center text-center px-4 md:px-8">
           <div>
-            <h1 className="text-4xl md:text-6xl font-extrabold">
-              I'm <span className="text-yellow-500">Arunkumar</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-center ">
+              Hai i'm
+            </h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-center">
+              {" "}
+              <span className="text-yellow-500 animate-typing">P.Arunkumar</span>
             </h1>
             <p className="text-lg md:text-2xl mt-4 italic">
               A Full Stack Developer I specialize in building modern,
