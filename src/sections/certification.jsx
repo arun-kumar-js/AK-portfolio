@@ -60,7 +60,7 @@ const Certification = () => {
   }, []);
 
   return (
-    <section className="py-16 px-4 text-white bg-black " id="certificates ">
+    <section className="py-16 px-4 text-white bg-black " id="certificates">
       <h2 className="mb-16 text-center text-4xl font-bold">Certifications</h2>
       <div className="max-w-5xl mx-auto flex flex-col items-center space-y-16">
         {certifications.map((cert, index) => (
@@ -95,7 +95,6 @@ const Certification = () => {
           </div>
         ))}
       </div>
-    
     </section>
   );
 };
