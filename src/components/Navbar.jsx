@@ -40,8 +40,8 @@ function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="absolute top-16 right-4 w-40 bg-blue-700 rounded-lg shadow-lg md:hidden">
-          <ul className="flex flex-col space-y-2 p-4">
+        <div className="absolute top-16 right-4 w-40 bg-blue-700 rounded-lg shadow-lg md:hidden z-10">
+          <ul className="flex flex-col space-y-2 p-4 ">
             {[
               "Home",
               "About",
